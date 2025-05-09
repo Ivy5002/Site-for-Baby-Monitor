@@ -11,3 +11,10 @@ form { max-width: 400px; display: flex; flex-direction: column; gap: 1rem; }
 input, textarea { padding: 1rem; width: 100%; border: 1px solid #ccc; border-radius: 5px; }
 button { background: #00796b; color: white; border: none; padding: 1rem; border-radius: 5px; cursor: pointer; }
 footer { text-align: center; background: #e0e0e0; padding: 1rem; }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url("images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
